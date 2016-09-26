@@ -6,7 +6,43 @@
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
 <title>资本力量主页</title>
 </head>
-<body>
+<body  >
+	<div class="ys">
+		<div class="top_x"></div>
+		<div class="line" >
+			<div class="alltext">
+				<span class="active">首页</span><span>银行</span><span>保险</span><span>证券</span><span>基金</span>
+			    <span>私募</span><span>期货</span><span>外汇</span><span>金融服务</span> <span>上市公司</span>   
+			</div>
+		</div>
+    </div>
+    <div class="about clearfix">
+    	<div class="left_l">
+    		<p>
+    			“2016年资本力量——品牌影响力大榜”是由证券之星举办的一场大型网络评选活动，奖项涵盖了银行、保险、证券、基金、私募、期货、外汇、金融服务及上市公司。
+    		</p>	
+    		<p>
+                                             只要贵公司在2016年度在所属行业中，产品获得大众认可，品牌形象进一步的提升，营销方面大胆尝试并创新等，都希望能参与该评选中。
+    		</p>
+    		<p>
+    			我要参选（<a href="#">下载参评模板</a>）
+    		</p>
+    		<p>
+    			发送至邮箱：pingxuan@stockstar.com
+    		</p>
+    	</div>
+    	<div class="right_r">
+    		<div class="l">
+    			<div class="imgs "><img src="img/zi_ben_05.jpg"></div>
+    			<div class="imgs active"><img src="img/ziben_l_bo2_03.jpg"></div>
+    			<div class="imgs "><img src="img/ziben_3_03.jpg"></div>
+    		</div>
+    		<div class="r cont_img">
+    			<img src="img/ziben_l_bo2_03.jpg" />
+    		</div>
+    	</div>
+    	<div class="cb"></div>
+    </div>
 
 
 
@@ -22,8 +58,7 @@
 
 
 
-
-<div id="footer"> 
+<div id="footer" style="margin-top: 800px;"> 
     <div class="page footer-page">
             <!-- 页尾-上 -->
             <div class="page-top">
@@ -51,7 +86,12 @@
 
 <script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
 
-<script type="text/javascript">
 
+<script type="text/javascript">
+$(".imgs").click(function(){
+	var src=$(this).find('img').attr('src')
+	    $(this).addClass('active').siblings().removeClass('active')
+	$('.cont_img img').attr('src',src)
+})
 </script>
 </html>
