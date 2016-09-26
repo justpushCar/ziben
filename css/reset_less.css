@@ -1,0 +1,296 @@
+body,
+div,
+form,
+img,
+dl,
+dt,
+dd,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+input,
+p,
+a,
+form {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+td,
+input {
+  font-size: 12px;
+  font-family: "SimSun";
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 12px;
+  font-family: Arial, "宋体";
+  behavior: url("css/csshover.htc");
+}
+select,
+input {
+  color: #666;
+  vertical-align: middle;
+  _vertical-align: text-bottom;
+}
+li {
+  list-style-type: none;
+}
+.clear {
+  clear: both;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+}
+ul,
+ol {
+  list-style: none;
+}
+ol li {
+  list-style: decimal inside;
+}
+em,
+address {
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Microsoft Yahei";
+}
+body {
+  background: #fff;
+}
+.text-left {
+  text-align: left;
+}
+.ovf {
+  width: 120px;
+  height: 14px;
+  overflow: hidden;
+}
+.dibk {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+.yahei {
+  font-family: "Microsoft Yahei";
+}
+.simsun {
+  font-family: "SimSun";
+}
+.dn {
+  display: none;
+}
+.ofh {
+  overflow: hidden;
+}
+.vm {
+  vertical-align: middle;
+}
+.vt {
+  vertical-align: top;
+}
+.vb {
+  vertical-align: bottom;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+.tl {
+  text-align: left;
+}
+.tc {
+  text-align: center;
+}
+.tr {
+  text-align: right;
+}
+.mr8 {
+  margin-right: 8px;
+}
+/*小图距字体的距离*/
+.mr4 {
+  margin-right: 4px;
+}
+.mr5 {
+  margin-right: 5px;
+}
+.mr6 {
+  margin-right: 6px;
+}
+.mr7 {
+  margin-right: 7px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.mr12 {
+  margin-right: 12px;
+}
+.mr14 {
+  margin-right: 14px;
+}
+.mr16 {
+  margin-right: 16px;
+}
+.mr18 {
+  margin-right: 18px;
+}
+.mr20 {
+  margin-right: 20px;
+}
+.mr30 {
+  margin-right: 30px;
+}
+.mr35 {
+  margin-right: 35px;
+}
+.mr40 {
+  margin-right: 40px;
+}
+.mr50 {
+  margin-right: 50px;
+}
+.mr60 {
+  margin-right: 60px;
+}
+.mr70 {
+  margin-right: 70px;
+}
+.mr76 {
+  margin-right: 76px;
+}
+.mr80 {
+  margin-right: 80px;
+}
+.mr90 {
+  margin-right: 90px;
+}
+.mr99 {
+  margin-right: 99px;
+}
+.mr100 {
+  margin-right: 100px;
+}
+.mr101 {
+  margin-right: 101px;
+}
+.mr102 {
+  margin-right: 102px;
+  display: inline;
+}
+.ml7 {
+  margin-left: 7px;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.ml16 {
+  margin-left: 16px;
+}
+.ml20 {
+  margin-left: 20px;
+}
+.ml30 {
+  margin-left: 30px;
+}
+.mt4 {
+  margin-top: 4px;
+}
+.mt6 {
+  margin-top: 6px;
+}
+.mt8 {
+  margin-top: 8px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.mt12 {
+  margin-top: 12px;
+}
+.mt14 {
+  margin-top: 14px;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.mt18 {
+  margin-top: 18px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mt30 {
+  margin-top: 30px;
+}
+.mt40 {
+  margin-top: 40px;
+}
+.mt50 {
+  margin-top: 50px;
+}
+.mb25 {
+  margin-bottom: 25px;
+}
+.pl5 {
+  padding-left: 5px !important;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: #e62223;
+  text-decoration: underline;
+}
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.psr {
+  position: relative;
+}
+/* IE 6/7 */
+.clearfix {
+  zoom: 1;
+}
+.cb {
+  clear: both;
+}
+.sanjiao {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-width: 5px;
+  border-color: transparent #000000 transparent transparent;
+  border-style: dashed solid dashed  dashed;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
