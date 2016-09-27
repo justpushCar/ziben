@@ -318,6 +318,7 @@ a:hover {
   margin-right: 47px;
   line-height: 58px;
   text-align: center;
+  display: inline;
 }
 .ys .line .alltext .active {
   color: white;
@@ -326,6 +327,7 @@ a:hover {
   width: 960px;
   margin: auto;
   margin-top: 65px;
+  height: 308px;
 }
 .about .left_l {
   width: 448px;
@@ -376,4 +378,101 @@ a:hover {
 .about .right_r .r img {
   width: 100%;
   height: 100%;
+}
+.geli {
+  height: 15px;
+  width: 100%;
+  background: #eeeeee;
+}
+.alltitl {
+  width: 960px;
+  margin: auto;
+}
+.alltitl .line_l {
+  height: 80px;
+  width: 400px;
+  border-bottom: 2px solid #ccc;
+  float: left;
+}
+.alltitl .txt {
+  height: 30px;
+  width: 160px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #33399a;
+  float: left;
+  text-align: center;
+  margin-top: 64px;
+}
+.alltitl .line_r {
+  height: 80px;
+  width: 400px;
+  border-bottom: 2px solid #ccc;
+  float: right;
+}
+.allpp .line {
+  height: 58px;
+  width: 100%;
+}
+.allpp .line .alltext {
+  width: 940px;
+  height: 35px;
+  margin: 0 auto;
+  padding-left: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.allpp .line .alltext span {
+  color: #666;
+  font-size: 20px;
+  margin-right: 47px;
+  text-align: center;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+}
+.allpp .line .alltext .active {
+  color: white;
+  height: 35px;
+  background: #f6ce6e;
+  padding: 0 10px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.allpp ul {
+  width: 960px;
+  height: 188px;
+  margin: 0 auto;
+}
+.allpp ul li {
+  width: 240px;
+  font-size: 0;
+  display: block;
+  float: left;
+}
+.allpp ul li img {
+  margin: 0 auto;
+  width: 190px;
+  margin-left: 25px;
+  height: 120px;
+}
+.allpp ul div {
+  height: 68px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 68px;
+  text-align: center;
+  color: #666;
+}
+.blue_bg {
+  background: url(../img/blue_bg.jpg) no-repeat center center;
+  height: 792px;
+}
+.blue_bg .canjia {
+  width: 380px;
+  height: 68px;
+  margin: auto;
+  background: url(img/canjia.png) no-repeat !important;
+  background: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=img/canjia.png);
 }
