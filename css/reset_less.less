@@ -119,14 +119,11 @@ a:hover{color:#e62223;text-decoration:underline}
   -webkit-box-shadow: @arguments;
 }
 //iE6 滤镜  iE6 png24
-.bgie(@url:""){
-    @url2:@url;
-     background:url(@url2) no-repeat !important; 
+.bgIE6(@url:""){
+     background:url('../@{url}') no-repeat !important; 
      background:none;
      filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=@url);
 }
-
-
 
 .sanjiao{
     .border_radius();
@@ -145,6 +142,7 @@ a:hover{color:#e62223;text-decoration:underline}
             width: 960px;height: 100%;margin: auto;padding-left: 30px;
             span{color: #f6ce6e;font-size:20px;margin-right: 47px;line-height: 58px;text-align: center;display: inline;}
             .active{color: white;}
+            a:hover{text-decoration:none}
         }
     }
 
@@ -153,7 +151,9 @@ a:hover{color:#e62223;text-decoration:underline}
     .left_l{width: 448px;height: 250px;float: left;margin-right: 8px;}
     p{text-indent: 4em;font-size:16px;line-height:32px;color: #666;
     a{color: #2519b7;text-decoration: underline;}
+      a:hover{text-decoration:underline}
     }
+    a:hover{text-decoration:none}
     @w:250px;
     .right_r{
        
@@ -176,7 +176,7 @@ a:hover{color:#e62223;text-decoration:underline}
 .alltitl{
     width: 960px; margin: auto;
     .line_l{height: 80px;width:400px;border-bottom: 2px solid #ccc;float: left;}
-    .txt{height:30px;width: 160px; font-size: 30px;font-weight: bold;color: #33399a;float: left;text-align: center;margin-top: 64px;}
+    .txt{height:30px;width: 160px; font-size: 30px;font-weight:bold;color: #33399a;float: left;text-align: center;margin-top: 64px;}
     .line_r{height: 80px;width:400px;border-bottom: 2px solid #ccc;float: right;}
 }
 .allpp{
@@ -197,11 +197,64 @@ a:hover{color:#e62223;text-decoration:underline}
 }
 .blue_bg{
     background: url(../img/blue_bg.jpg) no-repeat center center;height:792px;
+    .hig{height: 51px;width: 100%;}
     .canjia{
+        cursor: pointer;
         width:380px; height:68px;margin: auto;
-       
-        .bgie(~"img/canjia.png");
-       
-        
+        .bgIE6(~"img/canjia.png");
     }
+    .center_fix{
+        @boxH:172px;@boxW:172px;
+        @boxcenterTop:220px;@boxcenterLeft:18px; @boxHhalf:82px; @boxWwith:152px;
+        height: 200px;width: 200px;margin: auto;position: relative;
+       .wujiao{
+           cursor: pointer;
+           position: absolute;width: 188px;height: 162px;text-align: center;font-size: 32px;line-height: 162px;
+           color: white; display: none;color: #434ef0;
+            .bgIE6(~"img/wujiaoxing.png");
+       }
+       .wujiao_shiti{
+             .bgIE6(~"img/wujiaoxin_shiti.png");
+             color: white;
+       }
+       
+       .p1{top:@boxcenterTop;left:@boxcenterLeft;display: block}
+       .p2{top:@boxcenterTop - @boxH;left:@boxcenterLeft;display:block}
+       .p3{top:@boxcenterTop+@boxH;left:@boxcenterLeft;display: block}
+       .p4{top:@boxcenterTop - @boxHhalf;left:@boxcenterLeft - @boxWwith;display: block}
+       .p5{top:@boxcenterTop + @boxHhalf+8px;left:@boxcenterLeft - @boxWwith;display: block}
+       .p6{top:@boxcenterTop - @boxHhalf;left:@boxcenterLeft + @boxWwith;display: block}
+       .p7{top:@boxcenterTop + @boxHhalf+8px;left:@boxcenterLeft + @boxWwith;display: block}
+       .p8{top:@boxcenterTop;left:@boxcenterLeft + @boxWwith*2;display: block}
+       .p9{top:@boxcenterTop;left:@boxcenterLeft - @boxWwith*2;display: block}
+    }
+}
+
+.bg_all{
+    width: 100%; height: 284px;background:#eeeeee;
+  .mid_bottom{font-family:宋体;
+    height: 284px;width:960px;background:#eeeeee;margin: auto;
+    .guangao_l{width: 300px;font-size: 16px;line-height: 25px;float: left;margin-top: 50px;
+        margin-left: 180px; _margin-left: 100px;
+    .title{font-size: 20px;font-weight: bold;line-height:31px; }
+    }
+    .guangao_r{width: 300px;font-size: 16px;line-height: 25px;float:right;margin-top: 50px;
+        margin-left: 180px;  _margin-left: 100px;
+    .title{font-size: 20px;font-weight: bold;line-height:31px; }
+    }
+   
+  }  
+}
+.meiti{position: relative;
+ .txt{margin-left: 396px;position: absolute;top: 10px;}
+ img{margin-top: 90px;}
+}
+.foot_boottom{
+    height: 100px;background: #151b73;width: 100%;
+.bottom_right{width:960px;margin:0 auto;padding-top:10px;height: 100px;background: #151b73;
+#foot { text-align:center; width:960px; margin:0px auto; padding-bottom:20px; font-size:12px; color: #fff;   margin-top: 33px;}
+#foot div{ margin-bottom:10px;}
+#foot a{ color: #fff; text-decoration: underline;margin: 5px;}
+#foot a:hover{color: red; text-decoration: none;}
+} 
 }
