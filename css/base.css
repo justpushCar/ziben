@@ -1,0 +1,24 @@
+﻿/* ---------------------single CSS----------------------- */
+@charset "utf-8";
+body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,form,input,dl,dt,dd {margin: 0; padding: 0;}
+html,body{height: 100%; width: 100%; }
+body{font-size: 12px; font-family: "Microsoft Yahei",Arial;behavior:url("css/csshover.htc.htc");}
+textarea {font-family: "Microsoft Yahei";}
+img,a img {display: block;border:0;}
+a {text-decoration: none;}
+ul li{list-style:none;}
+em {font-style: normal;}
+.mr25 {margin-right: 25px;}
+.text_c {text-align: center;}
+/* display */
+.body1 {background: #ff3801;}
+.dn{display: none;}
+input{outline: medium none;}
+/* 清除浮 动*/
+.fix{*zoom:1;}
+.fix:after{display:table; content:''; clear:both;}
+.auto {width: 960px; margin: 0 auto;}
+.fl {float: left;}
+.fr {float: right;}
+.fs14{font-size:14px;color:#333;}
+.fs16{font-size:16px;}
